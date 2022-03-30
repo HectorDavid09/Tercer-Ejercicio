@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div>
+        <div class="formulario"></div>
+        <form>
+            <h1>AGENDA</h1>
+            <label for="nombre">Nombres</label>
+            <input type="text" id="nombre" name="nombre">
+            <br>
+            <label for="apellido">Apellidos</label>
+            <input type="text" id="apellido" name="apellido">
+            <br>
+            <label for="telefono">Telefono</label>
+            <input type="tel" id="telefono" name="telefono">
+            <br>
+            <label for="email">E-Mail</label>
+            <input type="email" id="email" name="email">
+            <br>
+            <label for="direccion">Dirección</label>
+            <input type="text" id="direccion" name="direccion">
+            <br>
+            <label for="fecha">Cumpleaños</label>
+            <input type="text" id="fecha" name="fecha">
+            <br>
+            <label for="nota">Anotación</label>
+            <input type="text" id="nota" name="nota">
+            <br>
+            <input type="button" value="Agregar" id="boton">
+        </form>
+    </div>
+    <br>
+    <div class="tabla">
+        <table id="tabla">
+        <tbody>
+            <thead>
+                <th>Nombre</th>
+                <th>Apellidos</th>
+                <th>Telefono</th>
+                <th>E-Mail</th>
+                <th>Dirección</th>
+                <th>Cumpleaños</th>
+                <th>Nota</th>
+                <th>Accion</th>
+            </thead>
+        </tbody>
+        <tr>
+            <td>Pedro</td>
+            <td>Perez</td>
+            <td>311126548</td>
+            <td>pedroperez@gmail.com</td>
+            <td>cll21 #12</td>
+            <td>12/12/2022</td>
+            <td>Compañero de colegio</td>
+            <td> <button class="btn-danger" onclick="eliminarFila(this)">Borrar</button></td>
+        </tr>
+    </table>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
