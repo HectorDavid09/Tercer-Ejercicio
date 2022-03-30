@@ -55,5 +55,7 @@ background-color: gray;
     width: 140px;
     transform: rotate(25deg) translate(180px);
 }
-© 2022 GitHub, Inc.
-Terms
+.btn-danger{
+    background-color: brown;
+    
+}

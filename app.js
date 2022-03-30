@@ -13,4 +13,9 @@ var boton = document.getElementById("boton");
 
 var contador = 1;
 
-console .log("JavaScript ON!");
+//console.log("JavaScript ON!");
+
+boton.addEventListener("click",function(){
+    console.log("Esta funcion esta trabajando")
+});
+
